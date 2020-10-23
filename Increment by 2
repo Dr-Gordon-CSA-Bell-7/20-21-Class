@@ -9,15 +9,8 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		for(int x=-10; x<=10; x++){
-			System.out.print(x);
-		}
-		int acc = -10;
-		System.out.println();
-		for(int x =-10; x<= 10; x++){
-			System.out.print(acc);
-			acc++;
+		for(int j = 0; j<10; j+=2){
+			System.out.println(j);
 		}
 	}
 }
-//Pretty cheap but fulfills the function
